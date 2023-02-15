@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "heroescore:steel_block"
+    }
+  ],
+  "result": {
+    "item": "heroescore:steel_ingot",
+    "count": 9
+  }
+}
