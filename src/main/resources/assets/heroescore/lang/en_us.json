@@ -1,5 +1,9 @@
 {
   "item.heroescore.steel_ingot": "Steel Ingot",
   "item.heroescore.steel_dust": "Steel Dust",
-  "item.heroescore.steel_nugget": "Steel Nugget"
+  "item.heroescore.steel_nugget": "Steel Nugget",
+
+  "block.heroescore.steel_block": "Steel Block",
+
+  "itemGroup.heroescoretab": "Heroes Core"
 }

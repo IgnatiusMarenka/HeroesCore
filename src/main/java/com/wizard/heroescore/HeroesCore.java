@@ -1,5 +1,6 @@
 package com.wizard.heroescore;
 
+import com.wizard.heroescore.block.ModBlocks;
 import com.wizard.heroescore.item.ModItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -32,6 +33,7 @@ public class HeroesCore
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
 
