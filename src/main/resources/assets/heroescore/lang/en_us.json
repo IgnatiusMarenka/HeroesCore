@@ -2,8 +2,11 @@
   "item.heroescore.steel_ingot": "Steel Ingot",
   "item.heroescore.steel_dust": "Steel Dust",
   "item.heroescore.steel_nugget": "Steel Nugget",
+  "item.heroescore.heroes_tablet": "Tech-en Tablet",
 
   "block.heroescore.steel_block": "Steel Block",
 
-  "itemGroup.heroescoretab": "Heroes Core"
+  "itemGroup.heroescoretab": "Heroes Core",
+
+  "item.heroescore.heroes_tablet.no_valuables": "No valuables found!"
 }
