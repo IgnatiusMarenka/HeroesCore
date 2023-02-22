@@ -46,8 +46,8 @@ public class HeroesTabletItem extends Item {
             }
         }
 
-        pContext.getItemInHand().hurt(1, new Random(),
-                pContext.getLevel().getServer().getPlayerList().getPlayer(pContext.getPlayer().getUUID()));
+        pContext.getItemInHand().hurtAndBreak(1, pContext.getPlayer(),
+                (player) -> player.broadcastBreakEvent(player.getUsedItemHand()));
 
 
         return super.useOn(pContext);
